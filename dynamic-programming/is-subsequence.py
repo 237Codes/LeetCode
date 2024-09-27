@@ -4,7 +4,7 @@ class Solution:
         for letter in t:
             if letter == s[index]:
                 index += 1
-            if index == len(s):
+            if index == len(s) - 1:
                 return True
         return False
 
