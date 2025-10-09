@@ -18,6 +18,6 @@ class Solution:
                     if multiple % number == 0:
                         myDict[multiple] = False
                         # print(myDict[multiple])
-        count_true = len([trueValue for keys in myDict.values() if trueValue])
+        count_true = len([trueValue for trueValue in myDict.values() if trueValue])
         return count_true
 
