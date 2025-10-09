@@ -12,7 +12,7 @@ class Solution:
             if myDict[number]:
                 print(myDict[number])
                 # countPrime += 1
-                for multiple in range (number*number, n):
+                for multiple in range (number*number, n, number):
                     # print(f"multiple:  {multiple}")
                     # print(myDict[number])
                     if multiple % number == 0:
